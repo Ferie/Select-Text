@@ -1,0 +1,65 @@
+body {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.container {
+    display: block;
+    margin: 24px auto;
+    max-width: 1024px;
+}
+
+.heading1 {
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0 16px;
+}
+
+.heading2 {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0 16px;
+}
+
+.paragraph {
+    margin: 8px 0;
+}
+
+.leftColumn {
+    float: left;
+    width: 66%;
+}
+
+.rightColumn {
+    float: left;
+    background-color: #EEE;
+    font-family: Courier;
+    width: 33%;
+}
+
+.content {
+    padding: 10px 16px;
+}
+
+.content.selectionsTitle {
+    padding: 42px 16px;
+}
+
+.selectionsSpacer {
+    margin-top: 20px;
+}
+
+.selection {
+    padding: 0 16px;
+}
+
+::selection {
+  background: #ffb7b7;
+}
+
+::-moz-selection {
+  background: #ffb7b7;
+}
